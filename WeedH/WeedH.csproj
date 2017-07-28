@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{69F0EF18-6CF5-4076-9A39-3CB9ECEA3DE1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WeedH</RootNamespace>
+    <AssemblyName>WeedH</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="weedh\weed\.DS_Store" />
+    <Content Include="weedh\weed\css\bootstrap.min.css.map" />
+    <Content Include="weedh\weed\fonts\fontawesome-webfont.eot" />
+    <Content Include="weedh\weed\fonts\fontawesome-webfont.ttf" />
+    <Content Include="weedh\weed\fonts\fontawesome-webfont.woff" />
+    <Content Include="weedh\weed\fonts\fontawesome-webfont.woff2" />
+    <Content Include="weedh\weed\fonts\FontAwesome.otf" />
+    <Content Include="weedh\weed\img\portfolio\images %284%29.jpg" />
+    <Content Include="weedh\weed\img\portfolio\p1.jpg" />
+    <Content Include="weedh\weed\img\portfolio\p2.jpg" />
+    <Content Include="weedh\weed\img\portfolio\p4.jpg" />
+    <Content Include="weedh\weed\img\portfolio\p5.jpeg" />
+    <Content Include="weedh\weed\img\portfolio\p9.jpg" />
+    <Content Include="weedh\weed\img\portfolio\pww.jpg" />
+    <Content Include="weedh\weed\img\portfolio\tf.jpg" />
+    <Content Include="weedh\weed\img\parallax\autumnbg.png" />
+    <Content Include="weedh\weed\img\slides\LT.jpg" />
+    <Content Include="weedh\weed\img\team\1.jpg" />
+    <Content Include="weedh\weed\img\team\Asian-women_Pic-3.jpg" />
+    <Content Include="weedh\weed\img\team\download %283%29.jpg" />
+    <Content Include="weedh\weed\img\team\images %285%29.jpg" />
+    <Content Include="weedh\weed\img\team\images %287%29.jpg" />
+    <Content Include="weedh\weed\img\team\sw.jpg" />
+    <Content Include="weedh\weed\img\team\tea.jpg" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="weedh\weed\api\config.php" />
+    <Content Include="weedh\weed\api\tweet.php" />
+    <Content Include="weedh\weed\api\twitteroauth\OAuth.php" />
+    <Content Include="weedh\weed\api\twitteroauth\twitteroauth.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="weedh\weed\css\animate.css" />
+    <Content Include="weedh\weed\css\bootstrap.min.css" />
+    <Content Include="weedh\weed\css\component.css" />
+    <Content Include="weedh\weed\css\font-awesome.min.css" />
+    <Content Include="weedh\weed\css\main.css" />
+    <Content Include="weedh\weed\css\media-queries.css" />
+    <Content Include="weedh\weed\css\owl.carousel.css" />
+    <Content Include="weedh\weed\css\responsive.css" />
+    <Content Include="weedh\weed\css\slit-slider.css" />
+    <Content Include="weedh\weed\fonts\fontawesome-webfont.svg" />
+    <Content Include="weedh\weed\img\preloader.gif" />
+    <Content Include="weedh\weed\img\slides\b.jpg" />
+    <Content Include="weedh\weed\img\slides\DSSS.jpg" />
+    <Content Include="weedh\weed\index.html" />
+    <Content Include="weedh\weed\js\bootstrap.min.js" />
+    <Content Include="weedh\weed\js\classie.js" />
+    <Content Include="weedh\weed\js\custom.js" />
+    <Content Include="weedh\weed\js\easyPieChart.js" />
+    <Content Include="weedh\weed\js\grid.js" />
+    <Content Include="weedh\weed\js\idangerous.swiper-2.1.min.js" />
+    <Content Include="weedh\weed\js\jquery-1.12.2.min.js" />
+    <Content Include="weedh\weed\js\jquery.appear.js" />
+    <Content Include="weedh\weed\js\jquery.ba-cond.min.js" />
+    <Content Include="weedh\weed\js\jquery.countTo.js" />
+    <Content Include="weedh\weed\js\jquery.easing-1.3.pack.js" />
+    <Content Include="weedh\weed\js\jquery.fitvids.js" />
+    <Content Include="weedh\weed\js\jquery.mixitup.min.js" />
+    <Content Include="weedh\weed\js\jquery.nav.js" />
+    <Content Include="weedh\weed\js\jquery.nicescroll.min.js" />
+    <Content Include="weedh\weed\js\jquery.parallax-1.1.3.js" />
+    <Content Include="weedh\weed\js\jquery.slitslider.js" />
+    <Content Include="weedh\weed\js\jquery.sticky.js" />
+    <Content Include="weedh\weed\js\modernizr-2.6.2.min.js" />
+    <Content Include="weedh\weed\js\owl.carousel.min.js" />
+    <Content Include="weedh\weed\js\tweetie.min.js" />
+    <Content Include="weedh\weed\js\wow.min.js" />
+    <Content Include="weedh\weed\js\zoomico.png" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54968</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54968/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
